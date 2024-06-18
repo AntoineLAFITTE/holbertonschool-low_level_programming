@@ -6,7 +6,7 @@
  * main - Entry point
  *
  * Description: This program assigns a random number to the variable n and
- * prints whether the number stored in the variable n is positive, negative, or zero.
+ * prints if the variable n is positive, negative, or zero.
  *
  * Return: Always 0 (Success)
  */
