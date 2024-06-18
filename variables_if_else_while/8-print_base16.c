@@ -12,7 +12,7 @@ int main(void)
 {
 	int b_16_n;
 
-	for(b_16_n = 0; b_16_n < 16; b_16_n++)
+	for (b_16_n = 0; b_16_n < 16; b_16_n++)
 	{
 		if (b_16_n < 10)
 			putchar(b_16_n + '0');
