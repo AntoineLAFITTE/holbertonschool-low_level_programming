@@ -19,7 +19,7 @@ void more_numbers(void)
 				number = '0' + (j % 10);
 			}
 			else
-			}	
+			{	
 				number = '0' + j;
 			}
 			_putchar(number);
