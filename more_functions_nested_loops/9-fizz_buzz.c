@@ -6,7 +6,7 @@
  * for the multiple of five print 'Buzz'.
  * For numbers which are multiples of both three and five print 'FizzBuzz'.
  */
-int fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -22,6 +22,4 @@ int fizz_buzz(void)
 	}
 
 	return (0);
-}
-			
-
+}			
