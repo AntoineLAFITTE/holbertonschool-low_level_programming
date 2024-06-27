@@ -19,7 +19,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		starting_point = (len - 1) / 2 + 1;
+		starting_point = (len - 1) / 2;
 	}
 
 	while (str[starting_point] != '0')
