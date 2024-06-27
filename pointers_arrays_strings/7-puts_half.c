@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * 
+ * puts_half - prints half of a string, followed by a new line
+ * @str: pointer to the string to be printed
  */
 void puts_half(char *str)
 {
@@ -19,7 +20,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		starting_point = (len - 1) / 2;
+		starting_point = (len - 1) / 2 - 1;
 	}
 
 	while (str[starting_point] != '\0')
