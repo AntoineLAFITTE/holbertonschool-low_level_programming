@@ -5,7 +5,7 @@
  * @str: string to modify
  *
  * The function capitalizes the first letter of every word in the string.
- *  All Words are separated by spaces, tabulations, new lines, and the 
+ * All Words are separated by spaces, tabulations, new lines, and the
  *  following characters: ,, ;, ., !, ?, ", (, ), {, and }.
  *
  * Return: modified string (pointer to the modfied string)
