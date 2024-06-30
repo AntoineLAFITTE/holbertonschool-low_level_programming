@@ -14,7 +14,7 @@ int _atoi(char *s)
 
 	while (*s)
 	{
-		if (*s =='_')
+		if (*s =='-')
 		{
 			sign *= -1;
 		}
