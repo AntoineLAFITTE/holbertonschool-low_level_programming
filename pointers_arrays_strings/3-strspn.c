@@ -5,7 +5,7 @@
  * @s: the main string containing the list of character to match in s
  * @accept: The string containing the list of characters to match in s
  *
- * Return: The number of bytes in the initial segment of s with 
+ * Return: The number of bytes in the initial segment of s with
  * bytes from accept
  */
 unsigned int _strspn(char *s, char *accept)
@@ -25,6 +25,6 @@ unsigned int _strspn(char *s, char *accept)
 		count++;
 		s++;
 	}
-	return count;
+	return (count);
 }
 
