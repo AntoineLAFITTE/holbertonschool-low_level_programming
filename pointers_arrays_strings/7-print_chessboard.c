@@ -4,7 +4,7 @@
 /**
  * print_chessboard - Prints the chessboard using an array of characters.
  * @a: Pointer to the 2D array of characters wich is used as a chest board.
- * The function iterats through each row of the aray(chestboard) and prtins. 
+ * The function iterats through each row of the aray(chestboard) and prtins.
  */
 void print_chessboard(char (*a)[8])
 {
@@ -17,5 +17,5 @@ void print_chessboard(char (*a)[8])
 			putchar(a[i][j]);
 		}
 		putchar('\n');
-	}	
+	}
 }
