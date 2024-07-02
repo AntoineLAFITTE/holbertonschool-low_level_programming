@@ -14,8 +14,11 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		sum1 = sum1 + a[i * size + i]; /*Somme de la diagonale principale */
-		sum2 = sum2 + a[i * size + (size - 1 - i)]; /* Somme de la diagonale secondaire */
+		/*Somme of main diag */
+		sum1 = sum1 + a[i * size + i];
+		/* Sum of secondary diag */
+		sum2 = sum2 + a[i * size + (size - 1 - i)];
+
 	}
 
 	printf("%d, %d\n", sum1, sum2);
