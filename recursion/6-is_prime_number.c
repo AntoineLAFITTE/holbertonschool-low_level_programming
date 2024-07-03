@@ -11,7 +11,7 @@ int find_prime_number(int n, int i)
 {
 	if (n % i == 0)
 	{
-    	return (0);
+		return (0);
 	}
 	if (i * i > n)
 	{
