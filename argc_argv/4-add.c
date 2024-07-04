@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -6,23 +7,24 @@
  * @argc: the number of arguments
  * @argv: array of argument strings
  *
- * Return: 0 (Success), 1 if any argument contains non-digit symbols
+ * Return: 0 on success, 1 if any argument contains non-digit symbols
  */
 int main(int argc, char *argv[])
 {
 	int sum = 0;
+	int i, j;
 
 	if (argc == 1)
 	{
-		printf("0\n");
-		return (0);
+	printf("0\n");
+	return (0);
 	}
 
-	for (int i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		for (char *p = argv[i]; *p != '\0'; p++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (!isdigit(*p))
+			if (!isdigit(argv[i][j]))
 			{
 				printf("Error\n");
 				return (1);
