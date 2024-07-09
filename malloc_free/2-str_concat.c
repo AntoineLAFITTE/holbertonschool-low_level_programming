@@ -41,10 +41,10 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	for (i = 0; i < len1; i++)
-		str[i] = s1[i];
+		concatenated_str[i] = s1[i];
 
 	for (i = 0; i < len2; i++)
 		concatenated_str[i + len1] = s2[i];
 
-	return (cocatenated_str);
+	return (concatenated_str);
 }
