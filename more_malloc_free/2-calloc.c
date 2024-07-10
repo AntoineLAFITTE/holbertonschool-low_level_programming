@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * _calloc - Allocates memory for an array using malloc and initializes it to zero
+ * _calloc - Allocates memory for an array using malloc and
+ * initializes it to zero
  * @nmemb: Number of elements
  * @size: Size of each element
  *
@@ -26,5 +27,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	for (i = 0; i < total_size; i++)
 		ptr[i] = 0;
 
-    return (ptr);
+	return (ptr);
 }
