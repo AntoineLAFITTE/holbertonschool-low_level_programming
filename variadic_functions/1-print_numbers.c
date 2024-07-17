@@ -9,7 +9,8 @@
  *
  * Description: This function takes a variable number of integer arguments
  * and prints them, separated by the given separator string. If the separator
- * is NULL, it is not printed. A new line is printed at the end of the function.
+ * is NULL, it is not printed. A new line is printed at
+ * the end of the function.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
