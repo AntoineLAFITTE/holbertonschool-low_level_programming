@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_dlisrint - prints all the elements of a dlistint_t list.
+ * print_dlistint - prints all the elements of a dlistint_t list.
  * @h: pointer to the head of the doubly linked list.
  *
  * Description: This function traverses a doubly linked list,
