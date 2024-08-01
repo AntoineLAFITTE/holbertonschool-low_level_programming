@@ -6,7 +6,7 @@
  * @index: index of the node, starting at 0.
  *
  * Description: This function traverses a doubly linked list to find
- * the node at the specified index. If the node does not exist, it returns NULL.
+ * the node at the specified index. If the node does not exist,it returns NULL.
  * Return: the address of the nth node, or NULL if it fails.
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
