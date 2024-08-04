@@ -9,7 +9,6 @@
  * main - Entry point for the cp program
  * @argc: Argument count
  * @argv: Argument vector
- * 
  * Return: 0 on success, otherwise exits with the appropriate code
  */
 int main(int argc, char *argv[])
